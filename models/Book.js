@@ -1,4 +1,3 @@
-// Book.js
 import { Schema, model } from "mongoose";
 
 const reviewSchema = Schema({
