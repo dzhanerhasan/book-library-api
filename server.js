@@ -20,10 +20,10 @@ const options = {
       description: "A simple Express Library API",
     },
     components: {
-      schemas: {}, // This is required, and should be an object
+      schemas: {},
     },
   },
-  apis: ["./routes/*.js"], // The paths to your API files
+  apis: ["./routes/*.js"],
 };
 
 const specs = swaggerJsDoc(options);
